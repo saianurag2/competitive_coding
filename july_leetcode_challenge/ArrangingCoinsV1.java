@@ -1,4 +1,3 @@
-package july_leetcode_challenge;
 public class ArrangingCoinsV1{
     public static int arrangeCoins(int n) {
         if(n==0)
