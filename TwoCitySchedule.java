@@ -10,7 +10,7 @@ public class TwoCitySchedule {
             index[i]= i;
             diff[i] = costs[i][0] - costs[i][1];
         }
-        Arrays.sort(index, new Comparator<Integer> () {
+        Arrays.sort(index, new Comparator<Integer> () {// indexes of array before sorting stored;
             public int compare (Integer a, Integer b) {
                 return Integer.compare(diff[b],diff[a]);
             }
